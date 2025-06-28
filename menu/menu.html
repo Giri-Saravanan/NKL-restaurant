@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NKL Restaurant • Menu</title>
+  <link rel="stylesheet" href="menu.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Namakkal <span class="logo">Restaurant</span></h1>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="menu.html" class="active">Menu</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="#" class="order-btn">Order Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <h2>Our Menu</h2>
+      <p>Order Online From Namakkal Restaurant. Satisfy your cravings with North Indian, Chinese, and Fast Food. Pair your meal with refreshing beverages.</p>
+    </section>
+
+    <section class="menu-section">
+      <h3>North Indian</h3>
+      <ul>
+        <li><span>Mutton Dum Biryani</span><span>₹280</span></li>
+        <li><span>Chicken Butter Masala</span><span>₹260</span></li>
+        <li><span>Pepper Chicken Masala</span><span>₹240</span></li>
+      </ul>
+    </section>
+
+    <section class="menu-section">
+      <h3>Chinese</h3>
+      <ul>
+        <li><span>Chicken 65</span><span>₹200</span></li>
+        <li><span>Chilli Chicken</span><span>₹220</span></li>
+        <li><span>Chicken Noodles</span><span>₹180</span></li>
+      </ul>
+    </section>
+
+    <section class="menu-section">
+      <h3>Fast Food</h3>
+      <ul>
+        <li><span>Mutton Samosa (2 pcs)</span><span>₹100</span></li>
+        <li><span>Veg Sandwich</span><span>₹90</span></li>
+        <li><span>Malabar Parotta</span><span>₹40</span></li>
+      </ul>
+    </section>
+
+    <section class="menu-section">
+      <h3>Beverages & Desserts</h3>
+      <ul>
+        <li><span>Green Tea</span><span>₹70</span></li>
+        <li><span>Special Falooda</span><span>₹150</span></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>📍 Near Namakkal New Bus Stand, Namakkal • 11:30 am – 12:00 am daily • hotelnkl@gmail.com</p>
+      <p>&copy; 2025 Namakkal Restaurant. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+  const toggle = document.getElementById('menu-toggle');
+  const nav = document.querySelector('header nav');
+
+  toggle.addEventListener('click', () => {
+    nav.classList.toggle('active');
+  });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Forum';
+}
+
+body {
+  line-height: 1.6;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+
+header {
+  background:#8B0000;
+  color:#fff;
+}
+
+header .container {
+  display:flex;
+  align-items:center;
+  justify-content:space-between; 
+  padding:10px 20px; 
+}
+
+.logo {
+  color: black;
+}
+
+header nav a {
+  color:#fff;
+  margin-left:15px;
+  text-decoration:none;
+  padding:5px 10px;
+}
+header nav a.order-btn{
+  padding: 10px;
+}
+
+header nav a.active,
+header nav a.order-btn {
+  background:#fff;
+  color:#8B0000;
+  border-radius:4px;
+}
+
+.container {
+  max-width:1000px;
+  margin:auto;
+}
+.container h1{
+  font-size: 30px;
+}
+.order-btn {
+  padding: 12px 24px;
+  border: 2px solid #fff;
+  letter-spacing: 3px;
+  background: transparent;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+/* hero section */
+
+.hero {
+  position: relative;
+  background: url('https://media.architecturaldigest.com/photos/5d2c9e26ae81990009f6429f/16:9/w_2560%2Cc_limit/TAK%252520Room_by%252520Adrian%252520Gaut.jpg') no-repeat center center/cover;
+  color: #fff;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* black mask with 50% opacity */
+  z-index: 1;
+}
+.hero-text {
+  position: relative;
+  z-index: 2; /* ensures text is above the mask */
+  font-size: 80px;
+}
+
+
+/* Our Legendary Story */
+.story-contant{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #171819;
+  color: #fff;
+}
+.story-contant img{
+  width: 600px;
+  padding: 20px;
+}
+.story-text{
+  text-align: center;
+  align-content: center;
+  padding: 20px;
+  width: 600px;
+}
+.story-text h1{
+  font-size: 50px;
+  font-weight: 500;
+}
+.story-text p{
+  font-size: 16px;
+  font-family: 400;
+}
+.story-text img{
+  width: 10rem;
+}
+
+
+/* Photo Section */
+.choose-bg{
+  background-color: #171819;
+  padding: 5rem 0;
+}
+.test-top{
+  text-align: center;
+  color: white;
+}
+.test-top h1{
+  font-size: 12px;
+  letter-spacing: 7px;
+}
+.test-top p{
+  font-size: 50px;
+}
+.separator{
+    width: 6rem;
+}
+.photo{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 20px;
+  padding-bottom: 0;
+  color: white;
+}
+.photo-box{
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  position: relative;
+}
+.photo-up{
+  width: 300px;
+  height: 340px;
+  position: relative;
+}
+.img-box{
+  position: absolute;
+  overflow: hidden;
+}
+.img-box::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust opacity here */
+  pointer-events: none;
+}
+.img-down{
+  position: absolute;
+  margin-top: 50px;
+  overflow: hidden;
+}
+.img-down::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust opacity here */
+  pointer-events: none;
+}
+
+
+.icon-box{
+  position: absolute;
+  margin-left: 75px;
+  margin-top: 200px;
+  text-align: center;
+}
+.icon-up{
+  position: absolute;
+  margin-left: 75px;
+  margin-top: 150px;
+  text-align: center;
+}
+.sales-details{
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  padding: 50px 0;
+}
+.saledetail h1{
+  text-align: center;
+  color: #fff;
+  font-size: 60px;
+}
+.saledetail h2{
+  font-size: 12px;
+  letter-spacing: 4.8px;
+  color: RGB(228, 197, 144);
+}
+
+
+/* final menu */
+.final-bg {
+  position: relative;
+  background: url('https://wallpapercave.com/wp/wp8329822.jpg') no-repeat center center/cover;
+  height: 600px;
+  color: #FFF;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.final-bg::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* black mask with 50% opacity */
+  z-index: 1;
+}
+/* To ensure text appears above the mask */
+.final-bg > * {
+  position: relative;
+  z-index: 2;
+}
+.final-menu{
+  text-align: center;
+  height: 600px;
+  justify-content: center;
+  display: flex;
+}
+.final-alin{
+  background: url('../asset/border-design.png') no-repeat center center/cover;
+  width: 400px;
+}
+.final-alin nav{
+  margin-top: 70px;
+}
+.final-alin a{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  font-size: 45px;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
