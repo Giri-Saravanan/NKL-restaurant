@@ -388,7 +388,7 @@ footer {
     position: absolute;
     top: 100px;
     left: 0;
-    width: 100%;
+    width: 60%;
     z-index: 999;
     padding: 20px 0;
   }
@@ -536,9 +536,8 @@ footer {
   .order-top h1{
     font-size: 30px;
   }
-}
-
 /* footer */
-.container p{
-  font-size: 12px;
+  .container p{
+    font-size: 12px;
+  }
 }
