@@ -388,7 +388,7 @@ footer {
     position: absolute;
     top: 60px;
     left: 0;
-    width: 60%;
+    width: 100%;
     z-index: 999;
     padding: 20px 0;
   }
