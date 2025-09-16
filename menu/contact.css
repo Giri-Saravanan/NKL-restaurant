@@ -172,3 +172,55 @@ header nav a.order-btn {
     transition: 0.2s ease-in;
     transform: scale(1.1);
 }
+
+@media (max-width: 768px){
+    body{
+        font-family: 'Forum';
+        width: 100vw;
+        height: 100vh;
+    }
+      .menu-toggle {
+    display: block;
+  }
+
+  header nav {
+    display: none;
+    flex-direction: column;
+    background-color: #8B0000;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    padding: 20px 0;
+  }
+
+  header nav.active {
+    display: flex;
+  }
+
+  header nav a {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  header .container {
+    position: relative;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    text-align: right;
+  }
+
+  .logo, nav {
+    float: none;
+    text-align: center;
+  }
+  .cover::before{
+    top: 60px;
+  }
+  .lable{
+    margin-top: 100px;
+  }
+}
