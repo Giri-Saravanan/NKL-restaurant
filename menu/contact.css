@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif,serif;
+}
+body{
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.lable{
+    background-color: antiquewhite;
+    width: 400px;
+    height: 550px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.form{
+    width: 100%;
+    padding: 40px;
+    color: #fff;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    color: #000;
+    margin: 25px 0;
+    border-bottom: 2px solid;
+    transition: 0.2s;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.input-box input{
+    width: 100%;
+    height: 40px;
+    background-color: whitesmoke;
+    border: none;
+    outline: none;
+    padding: 0 35px 0 5px;
+}
+.input-box textarea{
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: whitesmoke;
+    color: #000;
+    font-size: 1rem;
+}
+.input-box input:focus ~ label,
+.input-box input:valid ~ label{
+    top: -10px;
+}
+.btn-box{
+    text-align: center;
+}
+.btn-box button{
+    width: 100px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.btn-box button:hover{
+    box-shadow: 0 7px 10px;
+    transition: 0.2s ease-in;
+    transform: scale(1.1);
+}
