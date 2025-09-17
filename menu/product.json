@@ -3,36 +3,36 @@
         "id": 1,
         "name": "Product Name 1",
         "price": 50,
-        "image": "asset/OIP.webp"
+        "image": "asset/ordernow/OIP.webp"
     },
     {
         "id": 2,
         "name": "Product Name 2",
         "price": 50,
-        "image": "asset/OIP (1).webp"
+        "image": "asset/ordernow/OIP (1).webp"
     },
     {
         "id": 3,
         "name": "Product Name 3",
         "price": 50,
-        "image": "asset/OIP (2).webp"
+        "image": "asset/ordernow/OIP (2).webp"
     },
     {
         "id": 4,
         "name": "Product Name 4",
         "price": 50,
-        "image": "asset/OIP (3).webp"
+        "image": "asset/ordernow/OIP (3).webp"
     },
     {
         "id": 5,
         "name": "Product Name 5",
         "price": 50,
-        "image": "asset/OIP.webp"
+        "image": "asset/ordernow/OIP.webp"
     },
     {
         "id": 6,
         "name": "Product Name 6",
         "price": 50,
-        "image": "asset/OIP.webp"
+        "image": "asset/ordernow/OIP.webp"
     }
 ]
