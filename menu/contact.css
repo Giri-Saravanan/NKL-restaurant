@@ -178,6 +178,7 @@ header nav a.order-btn {
         font-family: 'Forum';
         width: 100vw;
         height: 100vh;
+        overflow: scroll;
     }
       .menu-toggle {
     display: block;
@@ -223,5 +224,4 @@ header nav a.order-btn {
   .lable{
     margin-top: 100px;
   }
-
 }
