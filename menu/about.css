@@ -21,18 +21,15 @@ header {
   background:#8B0000;
   color:#fff;
 }
-
 header .container {
   display:flex;
   align-items:center;
   justify-content:space-between; 
   padding:10px 20px; 
 }
-
 .logo {
   color: black;
 }
-
 header nav a {
   color:#fff;
   margin-left:15px;
@@ -42,14 +39,12 @@ header nav a {
 header nav a.order-btn{
   padding: 10px;
 }
-
 header nav a.active,
 header nav a.order-btn {
   background:#fff;
   color:#8B0000;
   border-radius:4px;
 }
-
 .container {
   max-width:1000px;
   margin:auto;
