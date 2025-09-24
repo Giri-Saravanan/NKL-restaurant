@@ -1,9 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    background: url("https://wallpapercave.com/wp/wp8329822.jpg") no-repeat center center/cover;
 }
+
+/* Header */
+
+.menu-toggle {
+  display: none;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+.header-0 {
+  background:#8B0000;
+  color:#fff;
+  height: 4rem;
+}
+.header-0 .container {
+  display:flex;
+  align-items:center;
+  justify-content:space-between; 
+  padding:10px 20px; 
+}
+.logo {
+    margin: 0;
+  color: black;
+}
+.header-0 nav a {
+  color:#fff;
+  margin-left:15px;
+  text-decoration:none;
+  padding:5px 10px;
+}
+.header-0 nav a.order-btn{
+  padding: 10px;
+}
+.header-0 nav a.active,
+.header-0 nav a.order-btn {
+  background:#fff;
+  color:#8B0000;
+  border-radius:4px;
+}
+
 .container{
     width: 1200px;
     max-width: 90%;
@@ -14,17 +60,27 @@ body{
 svg{
     width: 30px;
 }
-header{
+.header-1{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 0;
 }
-header .iconCart{
+.header-1 .title{
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: #fff;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+.header-1 .iconCart{
     position: relative;
     cursor: pointer;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 30px;
 }
-header .iconCart span{
+.header-1 .iconCart span{
     width: 30px;
     height: 30px;
     background-color: red;
@@ -39,7 +95,7 @@ header .iconCart span{
 }
 .listproduct .item img{
     width: 90%;
-    filter: drop-shadow(0 50px 20px #0009);
+    filter: drop-shadow(0 20px 10px #0009);
 }
 .listproduct{
     display: grid;
@@ -95,7 +151,7 @@ header .iconCart span{
 }
 .carttab .listcart img{
     width: 100%;
-    height: 70px;
+    height: 60px;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -135,4 +191,61 @@ header .iconCart span{
 .carttab .button a{
     color: #fff;
     text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    body{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        background: url("https://img.freepik.com/premium-photo/assorted-indian-non-vegetarian-food-recipe-served-group-includes-chicken-curry-mutton-masala-anda-egg-curry-butter-chicken-biryani-tandoori-murg-chicken-tikka-naa-roti-ramadan_466689-40929.jpg?w=2000") no-repeat fixed center center/cover;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    .header-0 nav {
+        display: none;
+        flex-direction: column;
+        background-color: #8B0000;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        padding: 20px 0;
+    }
+    .header-0 nav .active{
+        display: flex;
+    }
+    .header-0 nav a{
+        margin: 10px 0;
+        text-align: center;
+    }
+    .header-0 .container{
+        position: relative;
+    }
+    .nav-links{
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    .logo, nav{
+        float: none;
+        text-align: center;
+    }
+    .listproduct{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .listproduct .item{
+        padding: 10px;
+    }
+    .listproduct .item .price{
+        letter-spacing: 5px;
+        font-size: medium;
+    }
+    .listproduct .item img{
+        width: 100%;
+        border-radius: 10px;
+    }
 }

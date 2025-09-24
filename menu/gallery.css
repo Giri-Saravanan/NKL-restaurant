@@ -5,6 +5,7 @@
     font-family: 'Forum';
 }
 body{
+  line-height: 1.6;
     background-color: #222;
 }
 
@@ -20,15 +21,14 @@ body{
 header {
   background:#8B0000;
   color:#fff;
+  height: 4rem;
 }
-
 header .container {
   display:flex;
   align-items:center;
   justify-content:space-between; 
   padding:10px 20px; 
 }
-
 .logo {
   color: black;
 }

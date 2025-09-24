@@ -1,38 +1,38 @@
 [
     {
         "id": 1,
-        "name": "Product Name 1",
-        "price": 50,
-        "image": "asset/ordernow/OIP.webp"
+        "name": "Mutton Dum Biryani",
+        "price": 280,
+        "image": "https://shop.aeroplanerice.com/wp-content/uploads/2021/10/Best-Mutton-Biryani-Recipe.jpg"
     },
     {
         "id": 2,
-        "name": "Product Name 2",
-        "price": 50,
-        "image": "asset/ordernow/OIP (1).webp"
+        "name": "Chicken Butter Masala",
+        "price": 260,
+        "image": "https://media1.popsugar-assets.com/files/thumbor/j6QryStinjCOYPZ6idTSj8z4OsI/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2017/03/14/531/n/38922820/15cdba73dd925b63_Butter-Chicken_-_Copy.jpg"
     },
     {
         "id": 3,
-        "name": "Product Name 3",
-        "price": 50,
-        "image": "asset/ordernow/OIP (2).webp"
+        "name": "Pepper Chicken Masala",
+        "price": 240,
+        "image": "https://thewanderlustkitchen.com/wp-content/uploads/2014/03/Pepper-Chicken-square-1200.jpg"
     },
     {
         "id": 4,
-        "name": "Product Name 4",
-        "price": 50,
-        "image": "asset/ordernow/OIP (3).webp"
+        "name": "Chicken 65",
+        "price": 200,
+        "image": "https://theflavoursofkitchen.com/wp-content/uploads/2021/08/Chicken-65-3-scaled.jpg"
     },
     {
         "id": 5,
-        "name": "Product Name 5",
-        "price": 50,
-        "image": "asset/ordernow/OIP.webp"
+        "name": "Chicken Noodles",
+        "price": 180,
+        "image": "https://www.jocooks.com/wp-content/uploads/2014/09/hoisin-chicken-udon-noodles-1-16.jpg"
     },
     {
         "id": 6,
-        "name": "Product Name 6",
-        "price": 50,
-        "image": "asset/ordernow/OIP.webp"
+        "name": "Malabar Parotta",
+        "price": 40,
+        "image": "https://i.redd.it/ixmmb8ufajq61.jpg"
     }
 ]

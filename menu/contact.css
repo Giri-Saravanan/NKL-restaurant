@@ -5,6 +5,7 @@
     font-family: 'Forum';
 }
 body{
+    line-height: 1.6;
     top: 0;
     overflow: hidden;
     min-height: 100vh;
@@ -19,7 +20,7 @@ body{
 .cover::before{
     content: "";
     position: absolute;
-    top: 54px;
+    top: 64px;
     left: 0;
     z-index: 1;
     width: 100%;
@@ -37,6 +38,8 @@ body{
 header {
   background:#8B0000;
   color:#fff;
+  height: 4rem;
+  align-items: center;
 }
 
 header .container {
@@ -45,11 +48,9 @@ header .container {
   justify-content:space-between; 
   padding:10px 20px; 
 }
-
 .logo {
   color: black;
 }
-
 header nav a {
   color:#fff;
   margin-left:15px;
@@ -59,14 +60,12 @@ header nav a {
 header nav a.order-btn{
   padding: 10px;
 }
-
 header nav a.active,
 header nav a.order-btn {
   background:#fff;
   color:#8B0000;
   border-radius:4px;
 }
-
 .container {
   max-width:1000px;
   margin:auto;
@@ -172,17 +171,23 @@ header nav a.order-btn {
     transition: 0.2s ease-in;
     transform: scale(1.1);
 }
+footer {
+  background: #222;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
 
 @media (max-width: 768px){
-    body{
-        font-family: 'Forum';
-        width: 100vw;
-        height: 100vh;
-        overflow: scroll;
-    }
-      .menu-toggle {
-    display: block;
+  body{
+    font-family: 'Forum';
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
   }
+  .menu-toggle {
+    display: block;
+    }
 
   header nav {
     display: none;
